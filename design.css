@@ -90,6 +90,7 @@ body{
     height: 180px;
     padding: 20px;
     border-radius: 20px;
+    transition: 1s;
 }
 .whatido_card_section div:hover{
     background-color: rgb(252, 200, 210);
@@ -117,6 +118,9 @@ body{
         display: flex;
         flex-direction: column;
     }
+    .aboutme_text_section{
+        width: 200px;
+    }
 
     body {
         margin: 40px 10px;
@@ -124,6 +128,7 @@ body{
     .whatido_card_section{
         display: flex;
         flex-direction: column;
+        
     }
 
     body {
